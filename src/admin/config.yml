@@ -4,6 +4,7 @@ backend:
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts"
@@ -16,3 +17,10 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Featured Image"
+          name: "thumbnail"
+          widget: "image"
+          default: "/uploads/chocolate-dogecoin.jpg"
+          media_library:
+            config:
+              multiple: true
