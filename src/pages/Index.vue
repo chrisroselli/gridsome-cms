@@ -21,6 +21,9 @@
 <script>
 export default {
   metaInfo: {
+     script: [
+      { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js', async: true, defer: false }
+    ],
     title: 'Hello, world!'
   }
 }

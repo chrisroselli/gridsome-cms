@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: chrisroselli/gridsome-cms
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
